@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name/Value Pair </title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<h1>Name/Value Pair </h1>
+<div id="inputContainer">
+    <input type="text" id="nameValueInput" placeholder="<name> = <value>"/>
+    <button onclick="addNameValuePair()">Add</button>
+</div>
+<div id="listContainer">
+    <select id="nameValueList" multiple></select>
+    <div>
+        <button onclick="sortByName()">Sort by Name</button>
+        <button onclick="sortByValue()">Sort by Value</button>
+        <button onclick="deleteSelected()">Delete</button>
+    </div>
+</div>
+<script src="main.js"></script>
+
+</body>
+</html>
